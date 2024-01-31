@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+h2 {
+	color: red;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.first {
+	list-style-type: disc;
+}
+
+.second {
+	list-style-type: square;
+}
+
+.third {
+	list-style-type: circle;
+}
+
+.fourth {
+	list-style-type: lower-alpha;
+}
+
+.fifth {
+	list-style-type: upper-roman;
+}
+
+#movies {
+	color: lightblue;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#hobbies {
+	color: blueviolet;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+#websites {
+	color: aqua;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+a:hover {
+	color: red;
+}
+
+img {
+	width: 25%;
+	border-color: black;
+}
+
+td {
+	background-color: yellow;
+}
+
+th {
+	background-color: yellow;
+}
+
+td {
+	text-align: center;
+}
+
+.BUACT {
+	background-color: orange;
+}
+
+.ICT {
+	background-color: maroon;
+}
+
+#open {
+	background-color: blue;
+}

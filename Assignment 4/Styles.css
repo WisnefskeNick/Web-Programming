@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("Photo's/background.jpeg");
+	min-height: 250px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#Wrapper {
+	width: 80%;
+	margin: auto 10%;
+	border: solid black 10px;
+}
+
+h1 {
+	font-size: 72px;
+}
+
+table {
+	background-color: white;
+	width: 100%;
+}
+
+th {
+	height: 35px;
+}
+
+tr {
+	padding: 20px;
+}
+
+td {
+	border: solid black 1px;
+}
+
+input {
+	background-color: lightgrey;
+}
+
+select {
+	background-color: lightgrey;
+}
+
+.extend {
+	width: 80%;
+}
+
+.header {
+	text-align: center;
+	background-color: white;
+	border: 0px;
+}
+
+.center {
+	align-items: center;
+}
+
+.input {
+	border: 0px;
+	text-align: left;
+}
+
+.label {
+	border: 0px;
+	text-align: right;
+}
+
+.form-center {
+	text-align: center;
+	border: 0px;
+}
+
+.item-image {
+	border-top: solid black 1px;
+	border-left:  solid black 1px;
+	border-bottom:  solid black 1px;
+}
