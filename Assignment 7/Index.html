@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Assignment 7</title>
+</head>
+
+<body>
+	<button onclick="validation()">Click for Validation</button>
+		<script>
+			function validation() {
+				var x = document.createElement("IMG");
+				x.setAttribute("src", "Validation.png");
+				x.setAttribute("width", "700");
+				x.setAttribute("height", "350");
+				document.body.appendChild(x);
+			}
+		</script>
+	<p>JavaScript Assignment</p>
+	<p>Problems 1 and 2: Add/Change Text</p>
+		<button onclick="newText()">Add Text</button>
+		<button onclick="changeText()">Change Text</button>
+			<p id="text"></p>
+				<script>
+					function newText() {
+						document.getElementById('text').innerHTML = "new text";
+					}
+					function changeText() {
+						document.getElementById('text').innerHTML = "changed text";
+					}
+				</script>
+	<p>Problem 3: addDate Button</p>
+		<button onclick="dateText()">Click me to display Date and Time.</button>
+		<p id="date"></p>
+		<script>
+			function dateText() {
+			document.getElementById('date').innerHTML = Date()
+			}
+		</script>
+	<p>Problem 4: Create and IMG element</p>
+		<button onclick="myFunction()">Try it</button>
+	<p>Problem 5: Change the IMG src</p>
+		<script>
+			function myFunction() {
+				var x = document.createElement("IMG");
+				x.setAttribute("src", "picture.jpg");
+				x.setAttribute("width", "304");
+				x.setAttribute("height", "228");
+				document.body.appendChild(x);
+			}
+		</script>
+</body>
+</html>
